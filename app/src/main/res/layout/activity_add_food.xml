@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".AddFood">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/ibAddFood"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:inputType="text|textCapSentences"
+        android:hint="Enter name of item"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDesc"
+        android:inputType="text|textCapSentences"
+        android:hint="Enter description of item"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPrice"
+        android:hint="Enter price of item"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to menu"
+        android:id="@+id/bAdd"
+/>
+</LinearLayout>
